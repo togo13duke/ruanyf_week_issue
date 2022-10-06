@@ -21,7 +21,7 @@ jobs:
         with:
           user: "ruanyf"
           repo: "weekly"
-          max_issue_num: 10
+          max_issue_num: 100
 
       # you can add multiple definitions
       # - name: issue2atom octocat/hello-world
