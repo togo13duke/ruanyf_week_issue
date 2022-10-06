@@ -14,12 +14,12 @@ jobs:
       - name: Set up docker buildx
         uses: docker/setup-buildx-action@v1
 
-      - name: issue2atom octocat/hello-world
-        id: issue2atom_octocat/hello-world
+      - name: issue2atom ruanyf/weekly
+        id: issue2atom_ruanyf/weekly
         uses: tsubasaogawa/issue2atom@v2
         with:
-          user: "octocat"
-          repo: "hello-world"
+          user: "ruanyf"
+          repo: "weekly"
           max_issue_num: 10
 
       # you can add multiple definitions
