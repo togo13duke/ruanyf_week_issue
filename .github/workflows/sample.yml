@@ -15,7 +15,6 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: issue2atom ruanyf/weekly
-        id: issue2atom_ruanyf/weekly
         uses: tsubasaogawa/issue2atom@v2
         with:
           user: "ruanyf"
